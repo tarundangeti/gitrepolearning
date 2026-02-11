@@ -1,0 +1,41 @@
+first we need to create public or private remote repository in the github account
+
+add the remote repository by below
+git remote add origin https://github.com/your-username/gitrepo.git
+
+add the user namme and email to the gitbash console
+
+create the foler in the command line
+
+mkdir gitrepo
+
+cd gitrepo
+
+touch file{1..10}.py
+
+git init
+
+git add .
+
+git status
+
+git commit -m "message"
+
+git push -u origin master
+
+git branch -c sprint1 -will create the same copy of master branch in sprint1
+
+git checkout sprint1 -will go to the branch sprint1
+
+vi file1.py -make changes using i and save the chanages using :wq!
+
+git add .
+
+git status
+
+git commit -m "sprint1"
+
+git push -u origin sprint1
+
+
+
