@@ -45,3 +45,6 @@ git log
 
 git show commitid
 
+git diff
+
+git pull
