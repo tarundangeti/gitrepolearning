@@ -41,3 +41,7 @@ git checkout master
 
 git merge sprint1
 
+git log
+
+git show commitid
+
