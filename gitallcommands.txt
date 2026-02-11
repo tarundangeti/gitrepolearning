@@ -48,3 +48,19 @@ git show commitid
 git diff
 
 git pull
+
+git checkout file1.py -before commit we can roll back the changes in to the prevous file.
+
+git diff --chached   -before comit to check the restored difference
+
+git restore --staged file1.py  -before comit to restore the old commit
+
+git log --online -to get the git logs on one line
+
+git diff priviouscomitid..currentcomitid --after commited to check the differences
+
+git revert head -after comit is done to restore the privous commit
+
+git reset --hard comitid -after comit to reset the file with clearinf old commit history.
+
+

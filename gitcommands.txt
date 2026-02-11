@@ -1,0 +1,66 @@
+first we need to create public or private remote repository in the github account
+
+add the remote repository by below
+git remote add origin https://github.com/your-username/gitrepo.git
+
+add the user namme and email to the gitbash console
+
+create the foler in the command line
+
+mkdir gitrepo
+
+cd gitrepo
+
+touch file{1..10}.py
+
+git init
+
+git add .
+
+git status
+
+git commit -m "message"
+
+git push -u origin master
+
+git branch -c sprint1 -will create the same copy of master branch in sprint1
+
+git checkout sprint1 -will go to the branch sprint1
+
+vi file1.py -make changes using i and save the chanages using :wq!
+
+git add .
+
+git status
+
+git commit -m "sprint1"
+
+git push -u origin sprint1
+
+git checkout master
+
+git merge sprint1
+
+git log
+
+git show commitid
+
+git diff
+
+git pull
+
+git checkout file1.py -before commit we can roll back the changes in to the prevous file.
+
+git diff --chached   -before comit to check the restored difference
+
+git restore --staged file1.py  -before comit to restore the old commit
+
+git log --online -to get the git logs on one line
+
+git diff priviouscomitid..currentcomitid --after commited to check the differences
+
+git revert head -after comit is done to restore the privous commit
+
+git reset --hard comitid -after comit to reset the file with clearinf old commit history.
+
+
