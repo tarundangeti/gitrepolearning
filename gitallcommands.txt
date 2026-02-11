@@ -65,8 +65,8 @@ git reset --hard comitid -after comit to reset the file with clearinf old commit
 
 ssh-keygen.exe -to authonticate the private reposetory to github account
 
-ls .ssh
+ls ~/.ssh
 
-cat id_rsa.pub
+cat ~/.ssh/id_rsa.pub
 
 copy the public key and paste it over the github account
