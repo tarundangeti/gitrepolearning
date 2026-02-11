@@ -37,5 +37,7 @@ git commit -m "sprint1"
 
 git push -u origin sprint1
 
+git checkout master
 
+git merge sprint1
 
